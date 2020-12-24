@@ -51,4 +51,4 @@ USER gitpod
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
 
 RUN bash -c "source ~/.sdkman/bin/sdkman-init.sh && \
-                sdk install java 12.ea.12-open"
+                sdk install java 11.0.0-open"
